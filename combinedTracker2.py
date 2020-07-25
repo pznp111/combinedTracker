@@ -8,8 +8,6 @@ orig_stdout = sys.stdout
 f = open('out.txt', 'w')
 sys.stdout = f
 
-(major_ver, minor_ver, subminor_ver) = (cv2.__version__).split('.')
-
 
 class CombinedTracker(object):
     def __init__(self):
