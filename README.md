@@ -1,6 +1,6 @@
 # combinedTracker
 
-this is for tracking baseball movement, without using DL approach. <br />
+this is for tracking baseball movement, without using DL approach. tracked images are in savedImage folder <br />
 Adopting 2 methods: CSRT and find Contour.
 
 
