@@ -54,6 +54,7 @@ class CombinedTracker(object):
             self.csrt()
 
         cv2.imshow("Tracking", self.frameTotal)
+        cv2.imwrite('savedImage/img_tracked_total.bmp', self.frameTotal)
         cv2.waitKey(5000)
 
 
@@ -123,6 +124,7 @@ class CombinedTracker(object):
 
         # Display result
         cv2.imshow("Tracking", self.frameModified)
+        cv2.imwrite('savedImage/img_tracked' + str(self.frameNo) + '.bmp', self.frameModified)
         cv2.waitKey(1000)
 
     def ct(self):
